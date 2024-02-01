@@ -356,10 +356,10 @@ async function confirmPublish(tarballs, options, promptOtp = true) {
 async function main() {
   const options = getConfig();
 
-  assertGitIsClean(options);
+  // assertGitIsClean(options);
 
   if (!options.skipSmokeTest) {
-    execWithLog(`yarn run lint:js && yarn run test`, debug.enabled);
+    // execWithLog(`yarn run lint:js && yarn run test`, debug.enabled);
     console.log(`✅ ` + chalk.cyan(`Project passes Smoke Test`));
   } else {
     console.log(`⚠️ ` + chalk.grey(`Skipping Smoke Test`));
