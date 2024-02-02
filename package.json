@@ -1,6 +1,7 @@
 {
   "name": "root",
   "private": true,
+  "version": "3.28.12-biteable-ignore-polymorphism-errors",
   "workspaces": [
     "packages/*"
   ],
