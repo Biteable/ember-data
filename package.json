@@ -1,5 +1,9 @@
 {
-  "name": "root",
+  "name": "@ember-data/root",
+  "publishConfig":{
+    "access": "restricted",
+    "registry":"http://localhost:4873"
+  },
   "workspaces": [
     "packages/*"
   ],
